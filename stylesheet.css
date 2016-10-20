@@ -8,24 +8,28 @@ body {
 
 #info {
 	position: relative;
+	display: inline-block;
 	color:#F8F8FA;
 	background-color: #273153;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
-	margin: 130px 50px 100px 50px;
-	padding: 65px 50px 150px 50px;
+	margin: 95px 45px 130px 45px;
+	padding: 60px 10px 60px 10px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	border: 1px solid black;
 }
 
 #info ul li {
 	list-style: none;
+	font-family: 'Abel', sans-serif;
 }
 
 #left {
 	margin: 50px 50px 50px 50px;
-	padding: 50px 50px 50px 50px;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid black;
 }
 
 nav ul li {
@@ -49,18 +53,15 @@ li a {
 }
 
 #a-propos {
-	display: block;
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
 	margin: 30px 30px 30px 30px;
-	padding: 10px 40px 20px 40px;
-	text-align: center;
+	text-align: justify;
 }
 
 .element-propos {
 	display:inline-block;
-	width: 40%;
 	vertical-align: top;
 	text-align: justify;
 }
@@ -72,7 +73,7 @@ li a {
 	border-radius: 20px 20px 20px 20px;
 	margin: 30px 30px 30px 30px;
 	padding: 10px 40px 20px 40px;
-	text-align: left;
+	text-align: justify;
 }
 #formation {
 	display: block;
@@ -80,8 +81,8 @@ li a {
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
 	margin: 30px 30px 30px 30px;
-	padding: 10px 40px 20px 40px;
-	text-align: center;
+	padding: 10px 40px 20px 50px;
+	text-align: justify;
 }
 #comp-cert {
 	display: block;
@@ -100,7 +101,7 @@ li a {
 	border-radius: 20px 20px 20px 20px;
 	margin: 30px 30px 30px 30px;
 	padding: 10px 40px 20px 40px;
-	text-align: center;
+	text-align: justify;
 }
 
 .interet {
@@ -172,6 +173,7 @@ li a {
 h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 50px;
+	margin: 4px;
 }
 
 h2 {
