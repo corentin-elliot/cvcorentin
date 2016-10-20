@@ -4,21 +4,17 @@ body {
 	background-color:white;
 	background-attachment:fixed;
 	background-size: cover;
+	width:100%;
 }
 
 #info {
 	position: relative;
-	display: inline-block;
-	color:#F8F8FA;
+	color:#e6e8ed;
 	background-color: #273153;
-	border-top-left-radius: 30px;
-	border-top-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
-	margin: 95px 45px 130px 45px;
-	padding: 60px 10px 60px 10px;
+	border-radius: 30px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	border: 1px solid black;
+	margin: 50px 30px 0px 30px;
 }
 
 #info ul li {
@@ -28,17 +24,25 @@ body {
 
 #left {
 	margin: 50px 50px 50px 50px;
-	padding: 0px 0px 0px 0px;
 	border: 1px solid black;
 }
 
-nav ul li {
-	display:inline-block; 
-	padding:15px 28px 15px 28px;
-	margin-top: 40px
-	border: 1px solid #000000;
-	border-radius: 5px 5px;
+.navbar {
+	margin: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
 	background-color: #2D4E73;
+	text-align: center
+}
+
+nav ul li {
+	display: inline;
+	padding:15px 28px 15px 28px;
+	border-radius: 5px;
+	float: center;
 }
 
 nav a:hover{
@@ -46,23 +50,36 @@ nav a:hover{
 }
 
 li a {
-	color: #F8F8FA;
+	color: #b71919;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
 	text-decoration: none;
+	border-radius: 5px
+}
+
+nav.navbar.navbar-default {
+	border-radius: 5px;
+	border: none;
+	background: none;
+	margin-top: 50px;
+}
+
+.navbar-default .navbar-nav li a{
+    color:#e6e8ed; 
+}
+
+.navbar-header {
+	background-color: #F8F8FA;
+	border-radius: 5px;
 }
 
 #a-propos {
+	display: block;
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
-	text-align: justify;
-}
-
-.element-propos {
-	display:inline-block;
-	vertical-align: top;
+	padding: 10px 40px 20px 40px;
+	margin: 35px 30px 0px 30px;
 	text-align: justify;
 }
 
@@ -71,8 +88,8 @@ li a {
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
 	padding: 10px 40px 20px 40px;
+	margin: 35px 30px 0px 30px;
 	text-align: justify;
 }
 #formation {
@@ -80,8 +97,8 @@ li a {
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
 	padding: 10px 40px 20px 50px;
+	margin: 35px 30px 0px 30px;
 	text-align: justify;
 }
 #comp-cert {
@@ -89,8 +106,8 @@ li a {
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
 	padding: 10px 40px 20px 40px;
+	margin: 35px 30px 0px 30px;
 	text-align: center;
 }
 
@@ -99,8 +116,8 @@ li a {
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
-	padding: 10px 40px 20px 40px;
+	padding: 10px 40px 0px 40px;
+	margin: 35px 30px 0px 30px;
 	text-align: justify;
 }
 
@@ -117,8 +134,8 @@ li a {
 	border: 1px solid #F8F8FA;
 	background-color:#F8F8FA;
 	border-radius: 20px 20px 20px 20px;
-	margin: 30px 30px 30px 30px;
 	padding: 20px 40px 0px 40px;
+	margin: 35px 30px 50px 30px;
 	text-align: center;
 }
 
@@ -130,13 +147,11 @@ li a {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.footer {
+footer {
 	border: 1px solid #3a3a3a;
 	background-color:#3a3a3a;
-	margin: 0px -7px -8px -7px;
-	padding: 10px 10px 20px 10px;
-	height: -20px
-	color: black;
+	width:100%;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 }
