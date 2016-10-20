@@ -61,6 +61,9 @@
 
 
 
+
+
+
 	<!--<div id="a-propos">-->
 		<div id="a-propos" class="element-propos">
 			<div class="container">
@@ -69,7 +72,32 @@
 						<h2>A Propos</h2>
 						<p>
 						<img  src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAPeAAAAJGUxMDJlM2I4LTEwN2QtNDM3Yy1hZDI1LTYzMDc2ZWJjZjBjNg.jpg" height="25%"" width="25%" class="img-circle">
-						</p>	
+						</p>
+						<!-- Bouton Pop-up -->
+						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						  Quelques mots
+						</button>
+
+						<!-- Fenetre Ouvert par le Pop-Up -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  			<div class="modal-dialog">
+				    			<div class="modal-content">
+				      				<div class="modal-header">
+				        				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        				<h4 class="modal-title" id="myModalLabel">Quelques mots</h4>
+				      				</div>
+				      				<div class="modal-body">
+				       					Etudiant en 3ème année du programme Grande École en apprentissage spécialisation Marketing Digital de Telecom Ecole de Management.
+										<br>
+				       					<br>Je serai diplômé en 2017 du'un diplôme d'Études Supérieures de Gestion à Télécom École de Management.
+				      				</div>
+				      				<div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+								        <!--<button type="button" class="btn btn-primary">Enregistrer</button>-->
+				      				</div>
+				    			</div>
+				  			</div>
+						</div>	
 					</div>
 					<div class="col-md-5" class="element-propos">	
 						<p> Actuellement en 2ème année de Master, spécialisation Marketing Digital, au sein de Télécom École de Managament j'effectue mon alternance au siège des Cinémas Gaumont Pathé à Paris. 

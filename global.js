@@ -1,1 +1,3 @@
-global.js
+$(document).ready(function(){
+s
+});
